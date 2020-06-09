@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <title>IMC</title>
+</head>
+<body>
+<fieldset>
+    <div id="interface">
+        <h1>Calcule seu IMC!!</h1>
+    </div>
+    <br> 
+    <div id="interface2">
+        <input type="text" id="Peso" class="text" placeholder="Peso(Kg)" required><br> <br>
+        <input type="text" id="Altura" class="text" placeholder="Altura" required><br> <br>
+        <label for="">IMC</label> <br>
+        <input type="text" id = "resultado" class="Resultado" disabled="disabled"> <br> <br>
+        <input type="text" id ="visor" class="visor" disabled> <br> <br>
+        <input type = "submit" class="button" value="CALCULAR" onclick="calcular()">
+        <input type="submit" class="button" value="LIMPAR" onclick="reset()">
+    </div>
+</fieldset>
+    
+</body>
+</html>
